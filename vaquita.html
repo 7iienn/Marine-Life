@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="marine-life.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Vaquita</title>
     <style type="text/css">
         *{
             text-decoration: none;
         }
         body{
-            font-family: "Brush Script MT", cursive;
             color: black;
             margin: 0;
             font-size: 18px;
@@ -50,18 +52,15 @@
         }
 
         .factors .content h1{
-            font-family: "Brush Script MT", cursive;
             color: black;
         }
 
         .factors .content p{
-            font-family:"Brush Script MT", cursive;
             align-items: center;
             color: black;
         }
 
         .factors .content li{
-            font-family:"Brush Script MT", cursive;
             align-items: center;
             color: black;
             font-weight: bold;
@@ -70,13 +69,22 @@
         img{
             border-radius: 40%;
         }
+
+        @media screen and(max-width: 768px){
+            .container{
+                padding: 20px;
+            }
+
+            .contact wrapper{
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html">Home</a>
-            <a href=""></a>
             <a href="contact us.html">Feedback</a>
         </nav>
     </header>
@@ -84,7 +92,7 @@
     <div class="factors">
         <div class="content">
             <h1>Vaquita</h1>
-            <p>The vaquita is a species of porpoise endemic to the northern end of the Gulf of California in Baja California, Mexico. Reaching a maximum body length of 150 cm (4.9 ft) (females) or 140 cm (4.6 ft) (males), it is the smallest of all living cetaceans.</p>
+            <p>The vaquita is a species of porpoise endemic to the northern end of the Gulf of California in Baja California, Mexico. Reaching a maximum body length of 150 cm (4.9 ft) (females) <br>or 140 cm (4.6 ft) (males), it is the smallest of all living cetaceans.</p>
             <p>The species is currently on the brink of extinction, and is listed as Critically Endangered by the IUCN Red List;[2] the steep decline in abundance is primarily due to bycatch in gillnets from the illegal totoaba fishery.</p>
         </div>
         <div class="pics">
